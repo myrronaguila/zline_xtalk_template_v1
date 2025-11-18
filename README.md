@@ -83,8 +83,8 @@ All necessary dependencies for running the analysis and plotting scripts are lis
 
 #### 4.1. Clone the Repository:
 ```Bash
-git clone [Your GitHub Repo URL]
-cd [repo-name]
+git clone https://github.com/myrronaguila
+cd zline_xtalk_template_v1
 ```
 
 #### 4.2. Create Environment: We highly recommend using a virtual environment  iun nstall dependencies. (optional)
