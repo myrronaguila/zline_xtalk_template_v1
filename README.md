@@ -139,6 +139,7 @@ This work was supported by the following grants:
 | AS-GCP-112-M01 | Academia Sinica (AS) |
 | AS-GCS-114-M04 | Academia Sinica (AS) |
 | AS-KPQ-111-TQRB | Academia Sinica (AS) | 
+| 112-2628-M-001-004 | National Science and Technology Council (NSTC) | 
 
 ### 5.5. Usage and Citation
 Please cite both the published article and the Zenodo record when using the dataset. The dataset should be cited as:
@@ -148,7 +149,7 @@ Please cite both the published article and the Zenodo record when using the data
 The current structure serves as the reference template for subsequent data uploads in this series. If you adapt or extend this structure, please include a reference or acknowledgement to this Zenodo record to maintain continuity and traceability across related datasets. We recommend citation tag for related works:
 
 ```Bash
-“Data structure and metadata template adapted from Aguila et al. (2025, Zenodo DOI: 10.5281/zenodo.17639716).”
+“Data structure and metadata template adapted from Aguila et al. (2025, Zenodo DOI: 10.5281/zenodo.17639715).”
 ```
 
 ## 6. Contacts
