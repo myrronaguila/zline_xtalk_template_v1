@@ -1,0 +1,39 @@
+requirements.txt
+
+Minimal Python dependencies for reproducible data plotting.
+
+Based on Python 3.10.16 environment.
+
+--- Environment Marker (Specifies Python version) ---
+
+python_version >= "3.10"
+
+--- Core Scientific Computing Libraries ---
+
+NumPy: Essential for array manipulation.
+
+numpy>=1.26.4
+
+SciPy: Used for advanced scientific functions.
+
+scipy>=1.10.0
+
+Pandas: Critical for organizing and manipulating structured data frames,
+
+especially for handling .txt and .json data, and for integration with xarray.
+
+pandas>=1.5.0
+
+Xarray: Crucial for handling your labeled, multi-dimensional NetCDF data.
+
+xarray>=2.0.0
+
+--- Primary Plotting Library ---
+
+Matplotlib: The foundation for all static visualizations.
+
+matplotlib>=3.9.4
+
+Seaborn: Useful to customize confusion matrix for the graphical abstract.
+
+seaborn>=0.13.0

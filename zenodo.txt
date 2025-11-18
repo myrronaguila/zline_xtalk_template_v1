@@ -1,0 +1,63 @@
+{
+  "title": "Dataset for "Characterizing and Mitigating Flux Crosstalk in Superconducting Qubits-Couplers System",
+  "upload_type": "dataset",
+  "creators": [
+    {
+      "name": "Aguila, Myrron Albert Callera",
+      "affiliation": "Research Center for Critical Issues, Academia Sinica, Taiwan",
+	  "type": "researcher",
+      "orcid": "0000-0002-7910-8609"
+    },
+    {
+      "name": "Ke, Chung-Ting",
+	  "affiliation": "Institute of Physics, Academia Sinica, Nangang, Taiwan",
+      "affiliation": "Research Center for Critical Issues, Academia Sinica, Tainan, Taiwan",
+	  "type": "Supervisor",
+      "orcid": "0000-0002-6031-4226"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Li, Nian-Yu",
+	  "affiliation": "Institute of Physics, Academia Sinica, Nangang, Taiwan",
+      "affiliation": "Department of Physics, National Taiwan University, Taiwan",
+	  "type": "researcher",
+      "orcid": "0009-0001-2537-5277"
+    },
+    {
+      "name": "Chen, Chii-Dong",
+      "affiliation": "Research Center for Applied Sciences, Academia Sinica, Taiwan",
+      "type": "Supervisor",
+      "orcid": "0000-0002-4046-6943"
+    }
+  ],
+  "description": "This dataset provides a standardized template and curated data for characterizing flux crosstalk in superconducting quantum processor made of transmon qubits and couplers. The data structure, metadata design, and reproducibility format were originally developed by M.A.C. Aguila to establish a consistent standard for future superconducting quantum processor datasets. The structure was reviewed and refined collaboratively by C.-T. Ke and team members. The dataset supports the publication "Characterizing and Mitigating Flux Crosstalk in Superconducting Qubits-Couplers System" (2025) and serves as a reproducible reference for subsequent studies on superconducting quantum processors and other related studies.",
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "Superconducting Qubits,",
+    "Quantum Physics",
+    "Quantum Information",
+    "Magnetic Flux Crosstalk",
+	"Flux Crosstalk Cancellation",
+	"Digital Twin",
+    "lab-standard",
+    "reproducible-science",
+	"data-template",
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://doi.org/10.48550/arXiv.2508.03434",
+      "relation": "isSupplementTo",
+      "resource_type": "publication"
+    }
+  ],
+  "notes": "This record defines the first standard dataset template in this research stream. Future Zenodo uploads using this format should cite this DOI as the original version to ensure consistent reproducibility and attribution.",
+  "access_right": "open",
+  "version": "1.0.0",
+  "language": "en",
+  "communities": [
+    {
+      "identifier": "Academia Sinica"
+    }
+  ]
+}

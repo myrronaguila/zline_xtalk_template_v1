@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this Zenodo template or its structure, please cite as below."
+type: dataset
+authors:
+  - family-names: Aguila
+    given-names: Myrron Albert Callera
+    orcid: https://orcid.org/0000-0002-7910-8609
+title: "Standardized Zenodo Data Format for Dataset: 'Characterizing and Mitigating Flux Crosstalk in Superconducting Qubits-Couplers System'"
+doi: [the Zenodo DOI]
+date-released: 2025-11-18 # Placeholder for the expected release date of the dataset
