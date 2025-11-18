@@ -2,6 +2,8 @@
 
 ![alt text](figures/editable_source/fig_abs_toc.png)
 
+Citation: **Aguila, M.A., et al. (2025). Dataset for "Characterizing and Mitigating Flux Crosstalk in Superconducting Qubits-Couplers System". Zenodo. https://doi.org/10.5281/zenodo.17639715**
+
 ## 1. Project Overview & Citation
 
 This repository contains the minimal dataset, plotting scripts and post-processed scientific data necessary to reproduce the key findings of the manuscript:
@@ -9,7 +11,8 @@ This repository contains the minimal dataset, plotting scripts and post-processe
 Aguila, M. A. C., et al, (2025). **Characterizing and Mitigating Flux Crosstalk in Superconducting Qubits-Couplers System.** 
 https://doi.org/10.48550/arXiv.2508.03434
 
-Version: v1.0.0-origin (Corresponds to the data used in the first published version of the article.)
+
+Version: v1.0.1 (Corresponds to the data used in the first published version of the article, with DOI)
 
 This dataset and its formating ensure that most of the data associated with the processed figure sources from the main text and the supplemental material can be easily accessed, reproduced, and extended for future studies within the group and by collaborators. The data is provided in the NetCDF-4 (.nc) format for long-term preservation and maximum reusability.
 
@@ -140,12 +143,12 @@ This work was supported by the following grants:
 ### 5.5. Usage and Citation
 Please cite both the published article and the Zenodo record when using the dataset. The dataset should be cited as:
 
-Aguila, M.A., et al. (2025). Dataset for "Characterizing and Mitigating Flux Crosstalk in Superconducting Qubits-Couplers System". Zenodo. https://doi.org/10.xxxx/zenodo.xxxxxx
+**Aguila, M.A., et al. (2025). Dataset for "Characterizing and Mitigating Flux Crosstalk in Superconducting Qubits-Couplers System". Zenodo. https://doi.org/10.5281/zenodo.17639715**
 
 The current structure serves as the reference template for subsequent data uploads in this series. If you adapt or extend this structure, please include a reference or acknowledgement to this Zenodo record to maintain continuity and traceability across related datasets. We recommend citation tag for related works:
 
 ```Bash
-“Data structure and metadata template adapted from Aguila et al. (2025, Zenodo DOI: [DOI]).”
+“Data structure and metadata template adapted from Aguila et al. (2025, Zenodo DOI: 10.5281/zenodo.17639716).”
 ```
 
 ## 6. Contacts
@@ -164,4 +167,4 @@ ORCID: [\[0000-0002-6031-4226\]](https://orcid.org/0000-0002-6031-4226)
 
 v1.0.0-origin (2025-11-18): Initial release; establishes template structure and metadata conventions.
 
-(Future versions may include additional schema fields or organizational refinements.)
+v1.0.1 (2025-11-18): Added the DOI [README.md, citation.ctf, zenodo.json] uploaded to zenodo.

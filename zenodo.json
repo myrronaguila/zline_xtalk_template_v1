@@ -49,9 +49,10 @@
       "identifier": "https://doi.org/10.48550/arXiv.2508.03434",
       "relation": "isSupplementTo",
       "resource_type": "publication"
-    }
-  ],
-  "notes": "This record defines the first standard dataset template in this research stream. Future Zenodo uploads using this format should cite this DOI as the original version to ensure consistent reproducibility and attribution.",
+    }]
+	"doi": 10.5281/zenodo.17639716,
+	"url": https://doi.org/10.5281/zenodo.17639715,
+  "notes": "This record defines the first standard dataset template in this research stream. Future Zenodo uploads using this format should cite this DOI (https://doi.org/10.5281/zenodo.17639715) as the original version to ensure consistent reproducibility and attribution.",
   "access_right": "open",
   "version": "1.0.0",
   "language": "en",

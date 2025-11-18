@@ -6,5 +6,5 @@ authors:
     given-names: Myrron Albert Callera
     orcid: https://orcid.org/0000-0002-7910-8609
 title: "Standardized Zenodo Data Format for Dataset: 'Characterizing and Mitigating Flux Crosstalk in Superconducting Qubits-Couplers System'"
-doi: [the Zenodo DOI]
-date-released: 2025-11-18 # Placeholder for the expected release date of the dataset
+doi: 10.5281/zenodo.17639716
+date-released: 2025-11-18 
