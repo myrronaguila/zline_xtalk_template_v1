@@ -40,7 +40,7 @@ To reproduce a specific (nested) figure from the paper, refer to the following r
 | Main Text Fig. 5 | fig5_.nc, fig5b.nc, fig5c.nc, fig5d.nc, fig5e.nc, fig5ei.nc | plot_fig5.py | Intensity Maps of Coupler-Flux Mediated CZ SWAP prior to flux compensation (fig5b), and after flux compensation (fig5c), and its fig5c digital twin (fig5d). The extracted CZ coupling strength (fig5e) and its residuals are (inset of fig5e) are plotted as well. |
 | Supplemental Material Fig. S2 | figs2_.nc, figs2a.nc, figs2b.nc | plot_figs2.py | Intensity Maps of Flux Crosstalk Characterization using a Modified Ramsey Sequence (figs2a) and Q2 (fig2s2b)|
 | Supplemental Material Fig. S4 | figs4_.nc | plot_figs4.py | Long time-scale flux pulse duration dependence of Flux Crosstalk (figs4).|
-| Supplemental Material Fig. S5 | figs5_.nc, figs5a.nc, figs5b.nc, figs5c.nc, figs5d.nc | plot_figs5.py | Simulation of the Flux-dependent Normalized Rabi Amplitude $\theta(\Phi=0)/\theta(\Phi)$ (figs5a), Rabi Drive ($\theta(\Phi)/\text{T}$) (figs5b) and Full-Width Half Maximum (FWHM) (figs5c) of qubit Q1 and coupler C1. A simulated intensity map of the state probability of the coupler C1 flux vs XY drive frequency at $\theta(\Phi=0)/\text{T}=\pi/8$ drive is plotted (figs5d). |
+| Supplemental Material Fig. S5 | figs5_.nc, figs5a.nc, figs5b.nc, figs5c.nc, figs5d.nc | plot_figs5.py | Simulation of the Flux-dependent Normalized Rabi Amplitude $`\theta(\Phi=0)/\theta(\Phi)`$ (figs5a), Rabi Drive (`$\theta(\Phi)/\text{T}`$) (figs5b) and Full-Width Half Maximum (FWHM) (figs5c) of qubit Q1 and coupler C1. A simulated intensity map of the state probability of the coupler C1 flux vs XY drive frequency at $`\theta(\Phi=0)/\text{T}=\pi/8`$ drive is plotted (figs5d). |
 | Supplemental Material Fig. S6 | figs6_.nc, figs6a.nc, figs6b.nc | plot_figs6.py | Effect of unwanted frequency detuning on single-qubit gate (particularly X gate) fidelity and clifford errors (figs6a). This effect is repeated for numerous gate counts and on selected frequency detunings.|
 | Graphical Abstract | fig3b.nc, fig3c.nc, fig4a.nc, fig4c.nc, fig5b.nc, fig5c.nc, fig5ei.nc | plot_graph_abs.py | Graphical Abstract representing the work
 
@@ -57,10 +57,10 @@ Variable names within the retrieved Python dictionaries follow a consistent conv
 | Plot | Physical Quantity | Examples of formats | Description |
 | --- | --- | --- | --- |
 | 1D | X-axes (swept parameters) | x_V_(volts), x_det_(MHz), x_norm_phi | Parameters varied during the experiment (e.g., sweep_flux, param_duration). |
-| 1D | Y-axis (measured parameters) | y_fwhm_(MHz), y_xtalk, y_Fid | Core measured (simulated) outcomes (e.g., $\|1\rangle$ state population for 1Q, clifford errors, qubit frequencies, full-width half maximum, Rabi drive, normalized Rabi Angle, etc.). |
+| 1D | Y-axis (measured parameters) | y_fwhm_(MHz), y_xtalk, y_Fid | Core measured (simulated) outcomes (e.g., $`\|1\rangle`$ state population for 1Q, clifford errors, qubit frequencies, full-width half maximum, Rabi drive, normalized Rabi Angle, etc.). |
 | 2D | X-axis (swept parameters) | x_norm_phi, x_V_(volts), xfit_V_(volts) | Parameters varied during the experiment (e.g., sweep_flux, param_duration). |
 | 2D | Y-axis (swept parameters) | y_norm_phi, y_fxy_(MHz), y_time_(ns), yfit_fxy_(MHz) | Parameters varied during the experiment (e.g., sweep_flux, param_duration). |
-| 2D | Z-axis (measured / simulated parameters) | z_vrms_(uV), z_pop_(%) | Readout voltages (or state probabilities) representing the $\|1\rangle$ state population (e.g., $\text{P}_{\|11\rangle}$, $\text{P}_{\|1\rangle}$ ADC-I ($\mu\text{V}$)). |
+| 2D | Z-axis (measured / simulated parameters) | z_vrms_(uV), z_pop_(%) | Readout voltages (or state probabilities) representing the $\|1\rangle$ state population (e.g., $`\text{P}_{\|11\rangle}`$, $`\text{P}_{\|1\rangle}`$ ADC-I ($`\mu\text{V}`$)). |
 | 1D / 2D | Metadata / Configuration | Stored in .attrs | All configuration dictionaries (like x, y, and z-axis labels, plot settings, legend descriptions, and names of elements per figure) are stored as global NetCDF attributes.  |
 
 All of these variables are listed in the plotting scripts of the /code/ folder. For the case of twinX and twinY axes, the variable naming convention still holds for both x and y, but with an addition of 2 (e.g. x2_norm_phi, y2_err, etc.). Any variabls of axes +'fit' plus a parameter and unit (e.g. xfit_fxy_(MHz), yfit_fxy_(MHz), etc) represent a best-fit to summarize a 2D-color map into 1D plot but superimposed in a 2D color map for clarity.
@@ -95,11 +95,11 @@ pip install -r requirements.txt
 ```
 
 ### B. Generating Figures
-The scripts under the /code/ directory (i.e. plot_fig2.py, plot_figs2.py, etc.) reads the data_figures_2abc.nc file and uses matplotlib to reproduce the nested figures as it is shown in the manuscript. 
+The scripts under the /code/ directory (i.e. plot_fig2.py, plot_figs2.py, etc.) reads the data_fig2c.nc file and uses matplotlib to reproduce the nested figures as it is shown in the manuscript. 
 
 Execution command:
 ```Bash
-python code/plot_figure_2.py
+python code/plot_fig2.py
 ```
 
 Output: The script will output new image files (i.e. fig2bcde.png, figs2ab.png, etc.) into the figures/editable directory, allowing for direct comparison with the final images archived in **/final_figures/** subfolder.
