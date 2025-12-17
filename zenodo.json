@@ -4,13 +4,13 @@
   "creators": [
     {
       "name": "Aguila, Myrron Albert Callera",
-      "affiliation": "Research Center for Critical Issues, Academia Sinica, Taiwan",
+      "affiliation": "Research Center for Critical Issues, Academia Sinica, Tainan, Taiwan",
 	  "type": "researcher",
       "orcid": "0000-0002-7910-8609"
     },
     {
       "name": "Ke, Chung-Ting",
-	  "affiliation": "Institute of Physics, Academia Sinica, Nangang, Taiwan",
+	  "affiliation": "Institute of Physics, Academia Sinica, Taipei, Taiwan",
       "affiliation": "Research Center for Critical Issues, Academia Sinica, Tainan, Taiwan",
 	  "type": "Supervisor",
       "orcid": "0000-0002-6031-4226"
@@ -19,14 +19,82 @@
   "contributors": [
     {
       "name": "Li, Nian-Yu",
-	  "affiliation": "Institute of Physics, Academia Sinica, Nangang, Taiwan",
-      "affiliation": "Department of Physics, National Taiwan University, Taiwan",
+	  "affiliation": "Institute of Physics, Academia Sinica, Taipei, Taiwan",
+      "affiliation": "Department of Physics, National Taiwan University, Taipei, Taiwan",
 	  "type": "researcher",
       "orcid": "0009-0001-2537-5277"
     },
     {
+      "name": "Ma, Chen-Hsuan",
+	  "affiliation": "Institute of Physics, Academia Sinica, Taipei, Taiwan",
+      "affiliation": "Department of Physics, National Taiwan University, Taiwan",
+	  "type": "researcher"
+    },
+    {
+      "name": "Hsiao, Li-Chieh",
+	  "affiliation": "Research Center for Critical Issues, Academia Sinica, Taiwan",
+      "type": "researcher",
+      "orcid": "0009-0001-2537-5277"
+    },
+    {
+      "name": "Huang, Yi-Shiang",
+	  "affiliation": "Institute of Physics, Academia Sinica, Nangang, Taiwan",
+    "type": "researcher"
+    },
+    {
+      "name": "Chen, Yen-Chun",
+      "affiliation": "Research Center for Critical Issues, Academia Sinica, Tainan, Taiwan",
+      "type": "researcher",
+      "orcid": "0000-0003-3542-8763"
+    },
+    {
+      "name": "Lee, Teik-Hui",
+      "affiliation": "Research Center for Critical Issues, Academia Sinica, Tainan, Taiwan",
+      "type": "researcher",
+      "orcid": "0000-0002-8220-1396"
+    },
+    {
+      "name": "Chang, Chin-Chia",
+      "affiliation": "Institute of Physics, Academia Sinica, Taipei, Taiwan",
+      "type": "researcher"
+    },
+    {
+      "name": "Wang, Jyh-Yang",
+      "affiliation": "Department of Electrical Engineering, Feng-Chia University, Xitun, Taichung, Taiwan",
+      "type": "researcher",
+      "orcid": "0009-0008-8657-0579" 
+    },
+    {
+      "name": "Huang, Ssu-Yen Huang",
+      "affiliation": "Department of Physics, National Taiwan University, Taipei, Taiwan",
+      "type": "Supervisor",
+      "orcid": "0000-0001-5933-3115" 
+    },
+    {
+      "name": "Goan, Hsi-Sheng",
+      "affiliation": "Department of Physics, National Taiwan University, Taipei, Taiwan",
+      "affiliation": "Center for Quantum Science and Engineering, National Taiwan University, Taipei, Taiwan",
+      "affiliation": "Physics Division, National Center for Theoretical Sciences, Taipei, Taiwan",
+      "type": "Supervisor",
+      "orcid": "0000-0001-8117-5846" 
+    },
+    {
+      "name": "Wang, Chiao-Hsuan",
+      "affiliation": "Department of Physics, National Taiwan University, Taipei, Taiwan",
+      "affiliation": "Center for Quantum Science and Engineering, National Taiwan University, Taipei, Taiwan",
+      "affiliation": "Physics Division, National Center for Theoretical Sciences, Taipei, Taiwan",
+      "type": "Supervisor",
+      "orcid": "0000-0003-3505-9574" 
+    },
+    {
+      "name": "Wu, Cen-Shawn",
+      "affiliation": "Department of Physics, National Changhua University of Education, Changhua, Taiwan",
+      "type": "Supervisor",
+      "orcid": "0000-0002-8788-3891" 
+    },
+    {
       "name": "Chen, Chii-Dong",
-      "affiliation": "Research Center for Applied Sciences, Academia Sinica, Taiwan",
+      "affiliation": "Research Center for Applied Sciences, Academia Sinica, Taipei, Taiwan",
       "type": "Supervisor",
       "orcid": "0000-0002-4046-6943"
     }
@@ -50,11 +118,11 @@
       "relation": "isSupplementTo",
       "resource_type": "publication"
     }]
-	"doi": 10.5281/zenodo.17639716,
+	"doi": 10.5281/zenodo.17639715,
 	"url": https://doi.org/10.5281/zenodo.17639715,
   "notes": "This record defines the first standard dataset template in this research stream. Future Zenodo uploads using this format should cite this DOI (https://doi.org/10.5281/zenodo.17639715) as the original version to ensure consistent reproducibility and attribution.",
   "access_right": "open",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "language": "en",
   "communities": [
     {

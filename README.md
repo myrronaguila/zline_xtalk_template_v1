@@ -1,6 +1,6 @@
 # Dataset structured by M.A.C. Aguila (2025)
 
-![alt text](figures/editable_source/fig_abs_toc.png)
+![alt text](figures/editable_source/fig_toc.png)
 
 Citation: **Aguila, M.A., et al. (2025). Dataset for "Characterizing and Mitigating Flux Crosstalk in Superconducting Qubits-Couplers System". Zenodo. https://doi.org/10.5281/zenodo.17639715**
 
@@ -12,7 +12,7 @@ Aguila, M. A. C., et al, (2025). **Characterizing and Mitigating Flux Crosstalk 
 https://doi.org/10.48550/arXiv.2508.03434
 
 
-Version: v1.0.1 (Corresponds to the data used in the first published version of the article, with DOI)
+Version: v1.0.2 (Corresponds to the data used in the first published version of the article, with DOI)
 
 This dataset and its formating ensure that most of the data associated with the processed figure sources from the main text and the supplemental material can be easily accessed, reproduced, and extended for future studies within the group and by collaborators. The data is provided in the NetCDF-4 (.nc) format for long-term preservation and maximum reusability.
 
@@ -118,6 +118,17 @@ This Zenodo dataset, data structure and metadata standard was originally prepare
 | --- | --- | --- |
 | Aguila, Myrron Albert Callera | Conceptualization; Data Curation; Software; Writing – Documentation | https://orcid.org/0000-0002-7910-8609 |
 | Li, Nien-Yu | Investigation; Data Curation | https://orcid.org/0009-0001-2537-5277 |
+| Ma, Chen-Hsuan | Investigation | - |
+| Hsiao, Li-Chieh | Investigation; Software | - |
+| Huang, Yi-Shiang | Investigation | - |
+| Chen, Yen-Chun | Resources | https://orcid.org/0000-0003-3542-8763 |
+| Lee, Teik-Hui | Resources | https://orcid.org/0000-0002-8220-1396 |
+| Chang, Chin-Chia | Validation | - |
+| Wang, Jyh-Yang | Validation | https://orcid.org/0009-0008-8657-0579 |
+| Huang, Ssu-Yen | Resources | https://orcid.org/0000-0001-5933-3115 |
+| Goan, Hsi-Sheng | Resources; Funding | https://orcid.org/0000-0001-8117-5846 |
+| Wang, Chiao-Hsuan | Resources | https://orcid.org/0000-0003-3505-9574 |
+| Wu, Cen-Shawn | Resources | https://orcid.org/0000-0002-8788-3891 |
 | Chen, Chii-Dong | Supervision; Validation; Funding | https://orcid.org/0000-0002-4046-6943 |
 | Ke, Chung-Ting | Conceptualization; Supervision; Funding | https://orcid.org/0000-0002-6031-4226 |
 
@@ -134,12 +145,17 @@ This dataset is released under the Creative Commons Attribution 4.0 Internationa
 
 ### 5.4. Funding
 This work was supported by the following grants: 
-| Grant ID | Affiliation |
-|--- | --- |
-| AS-GCP-112-M01 | Academia Sinica (AS) |
-| AS-GCS-114-M04 | Academia Sinica (AS) |
-| AS-KPQ-111-TQRB | Academia Sinica (AS) | 
-| 112-2628-M-001-004 | National Science and Technology Council (NSTC) | 
+| Grant ID | Name | Affiliation |
+|--- | --- | --- |
+| AS-GCP-112-M01 | Academia Sinica Grand Challenge | Academia Sinica (AS) |
+| AS-GCS-114-M04 | Grand Challenge Program Seed Grant | Academia Sinica (AS) |
+| AS-KPQ-111-TQRB | National Quantum Initiative  | Academia Sinica (AS) | 
+| 112-2628-M-001-004 | NSTC 2030 Cross-Generation Young Scholars | National Science and Technology Council (NSTC) | 
+| 113-2112-M-002-022-MY3 | - | National Science and Technology Council (NSTC) |
+| 114-2119-M-002-018 | - | National Science and Technology Council (NSTC) |
+| NTU-CC-114L8950 | - | National Taiwan University |
+| NTU-CC114L895004 | - | National Taiwan University |
+
 
 ### 5.5. Usage and Citation
 Please cite both the published article and the Zenodo record when using the dataset. The dataset should be cited as:
@@ -169,3 +185,5 @@ ORCID: [\[0000-0002-6031-4226\]](https://orcid.org/0000-0002-6031-4226)
 v1.0.0-origin (2025-11-18): Initial release; establishes template structure and metadata conventions.
 
 v1.0.1 (2025-11-18): Added the DOI [README.md, citation.ctf, zenodo.json] uploaded to zenodo.
+
+v1.0.2 (2025-12-17): Modified the Graphical Abstract. Added contributors in README.md and zenodo.json. Corrected concept DOI in zenodo.json.
